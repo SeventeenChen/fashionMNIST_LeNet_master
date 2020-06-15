@@ -2,11 +2,22 @@
 
 ## LeNet5 模型
 
-# ![LeNet5 Model]()
+# ![LeNet5 Model](images/LeNet5.png)
 
 ## 模型参数
 
-![Summary]()
+![Summary](images/LeNet5_summary.png)
+
+## python相关配置
+
+- python 3.6
+- modelsummary==1.1.7
+- music21==5.7.2
+- numpy==1.16.4
+- pandas==1.0.4
+- tensorboard==1.14.0
+- torch==1.4.0+cu100
+- torchvision==0.5.0+cu100
 
 ## 优化函数
 
@@ -48,7 +59,5 @@ CUDA_VISIBLE_DEVICE=0 python test.py
 
 - [ ] README.md in English
 
-## 参考
 
-[ashmeet13](https://github.com/ashmeet13)
 

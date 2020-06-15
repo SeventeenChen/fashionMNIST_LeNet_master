@@ -1,4 +1,3 @@
-librosa==0.7.2
 modelsummary==1.1.7
 music21==5.7.2
 numba==0.48.0
