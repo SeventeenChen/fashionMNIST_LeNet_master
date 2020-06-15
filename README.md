@@ -51,7 +51,7 @@ nvidia-smi
 
 将测试集中的PATH改为对应保存的pth文件即可
 
-```
+```python
 CUDA_VISIBLE_DEVICE=0 python test.py
 ```
 
