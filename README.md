@@ -8,6 +8,15 @@
 
 ![Summary](images/LeNet5_summary.png)
 
+## LeNet5 模型描述
+
+7层结构，3层卷积 + 2层平均池化 + 全连接层
+
+- kernel size： $ 5 \times 5 $, stride: 1
+- AvgPooling：$ 2 \times 2 $, stride: 1
+- 原始论文使用Sigmoid激活函数，本实验使用ReLU
+- 网络输入图像为 $32 \times 32 $, 数据集中图像原始大小 $ 28 \times 28 $, 利用torch中dataset自带transforms rescale图像大小
+
 ## python相关配置
 
 - python 3.6
@@ -59,5 +68,7 @@ CUDA_VISIBLE_DEVICE=0 python test.py
 
 - [ ] README.md in English
 
+## Reference
 
+[Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, november 1998](https://ieeexplore.ieee.org/document/726791)
 
