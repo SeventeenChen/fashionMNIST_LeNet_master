@@ -70,5 +70,6 @@ CUDA_VISIBLE_DEVICE=0 python test.py
 
 ## Reference
 
-[Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, november 1998](https://ieeexplore.ieee.org/document/726791)
+- [1] [Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, november 1998](https://ieeexplore.ieee.org/document/726791)
+- [2]  Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms. Han Xiao, Kashif Rasul, Roland Vollgraf. [arXiv:1708.07747](http://arxiv.org/abs/1708.07747)
 
